@@ -25,7 +25,6 @@ print("""
           \___________________________/
 """)
 
-tablero = crear_tablero()
 tablero_1 = crear_tablero()
 tablero_2 = crear_tablero()
 
@@ -58,15 +57,16 @@ colocar_barcos_aleatorio(tablero)
 print(tablero)
 
 for i in tablero:
-    while "O" in i:
-        time.sleep(1)
-        print("Aúnn hay barcos, dispara!")
-        disparar(tablero, tablero_2)
-        time.sleep(1)
-        print("Te van a disparar")
-        disparo_aleatorio(tablero_1)
-        print(tablero_2, end = "\n\n")
-        print(tablero_1)
-    else:
-        print("Has ganado")
-        break
+    for j in i:
+        while "O" in i:
+            time.sleep(1)
+            print("Aúnn hay barcos, dispara!")
+            disparar(tablero, tablero_2)
+            time.sleep(1)
+            print("Te van a disparar")
+            disparo_aleatorio(tablero_1)
+            print(tablero_2, end = "\n\n")
+            print(tablero_1)
+        else:
+            print("Has ganado")
+            break
