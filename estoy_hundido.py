@@ -1,5 +1,30 @@
 from utils import *
 
+print("""
+               |\\                
+               | \\               
+               |  \\              
+               |   \\             
+               |    \\            
+               | La  \\           
+               | Flota\\          
+               | Me    \\         
+               | Ha     \\        
+               | Hundido \\       
+               | :(       \\      
+               |           \\     
+               |            \\    
+               |  Alejandro  \\   
+               |    Plaza     \\  
+               |               \\ 
+      _____________________________________
+      \                                   /
+       \                                 /
+        \                               /
+         \                             /
+          \___________________________/
+""")
+
 tablero = crear_tablero()
 tablero_1 = crear_tablero()
 tablero_2 = crear_tablero()
