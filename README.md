@@ -8,7 +8,7 @@
 
 1. **Clona el repositorio** o descarga los archivos del juego.
    ```bash
-   git clone https://github.com/tu-usuario/hundir-la-flota.git
+   git clone https://github.com/PlazzaA/La_flota_me_ha_hundido
 
 ## Asegúrate de tener Python instalado. Este juego requiere Python 3.6 o superior. Puedes verificar tu versión de Python con:
     python --version
